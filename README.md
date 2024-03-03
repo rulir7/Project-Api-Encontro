@@ -1,17 +1,67 @@
-# Project-Api-Encontro
-Sistema de Agendamento de Eventos
+# Sistema de Agendamento de Eventos
 
-Funcionalidades
-Seleção de Data e Hora: Os usuários podem selecionar facilmente a data e a hora desejadas usando um calendário interativo e um modal de seleção de datas e horas.
+O Sistema de Agendamento de Eventos é uma aplicação web que permite aos usuários agendar eventos selecionando uma data e hora específicas. A aplicação oferece uma interface intuitiva e interativa para facilitar o processo de agendamento de eventos, seja para reuniões de negócios, compromissos pessoais ou qualquer outra ocasião.
 
-Envio de Dados: Após selecionar os detalhes do evento, os usuários podem enviar os dados do evento para o servidor com um simples clique em um botão.
+![Demonstração do Sistema de Agendamento de Eventos](demo.gif)
 
-Pré-requisitos
-Node.js e npm instalados em sua máquina.
+## Funcionalidades
 
-Instalação
-Clone este repositório para o seu ambiente local usando o seguinte comando:
+- **Seleção de Data e Hora:** Os usuários podem selecionar facilmente a data e a hora desejadas usando um calendário interativo e um modal de seleção de datas e horas.
+- **Envio de Dados:** Após selecionar os detalhes do evento, os usuários podem enviar os dados do evento para o servidor com um simples clique em um botão.
+- **Feedback Visual:** A aplicação fornece feedback visual para indicar se os dados do evento foram enviados com sucesso ou se ocorreu algum erro durante o processo de envio.
 
-bash
-Copy code
-git clone https://github.com/seu-usuario/sistema-agendamento-eventos.git
+## Pré-requisitos
+
+- Node.js e npm instalados em sua máquina.
+
+## Instalação
+
+1. Clone este repositório para o seu ambiente local usando o seguinte comando:
+
+    ```bash
+    git clone https://github.com/seu-usuario/sistema-agendamento-eventos.git
+    ```
+
+2. Navegue até o diretório do projeto:
+
+    ```bash
+    cd sistema-agendamento-eventos
+    ```
+
+3. Instale as dependências do projeto:
+
+    ```bash
+    npm install
+    ```
+
+4. Inicie o servidor:
+
+    ```bash
+    npm start
+    ```
+
+5. Acesse a aplicação no seu navegador em [http://localhost:4000](http://localhost:4000).
+
+## Tecnologias Utilizadas
+
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** Node.js, Express
+- **Bibliotecas:** Axios, Cors
+
+## Contribuições
+
+Contribuições são bem-vindas! Se você quiser contribuir para este projeto, siga estas etapas:
+
+1. Faça um fork do projeto.
+2. Crie uma branch para a sua feature (`git checkout -b feature/nova-feature`).
+3. Faça commit das suas mudanças (`git commit -am 'Adiciona nova feature'`).
+4. Faça push para a branch (`git push origin feature/nova-feature`).
+5. Abra um Pull Request.
+
+## Licença
+
+Este projeto é licenciado sob a [MIT License](LICENSE).
+
+## Contato
+
+Se precisar de ajuda ou tiver alguma dúvida, entre em contato pelo email: seuemail@example.com
