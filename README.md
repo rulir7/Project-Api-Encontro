@@ -8,6 +8,7 @@ O Sistema de Agendamento de Eventos é uma aplicação web que permite aos usuá
 
 - **Seleção de Data e Hora:** Os usuários podem selecionar facilmente a data e a hora desejadas usando um calendário interativo e um modal de seleção de datas e horas.
 - **Envio de Dados:** Após selecionar os detalhes do evento, os usuários podem enviar os dados do evento para o servidor com um simples clique em um botão.
+- **Feedback Visual:** A aplicação fornece feedback visual para indicar se os dados do evento foram enviados com sucesso ou se ocorreu algum erro durante o processo de envio.
 
 ## Pré-requisitos
 
@@ -46,21 +47,3 @@ O Sistema de Agendamento de Eventos é uma aplicação web que permite aos usuá
 - **Frontend:** HTML, CSS, JavaScript
 - **Backend:** Node.js, Express
 - **Bibliotecas:** Axios, Cors
-
-## Contribuições
-
-Contribuições são bem-vindas! Se você quiser contribuir para este projeto, siga estas etapas:
-
-1. Faça um fork do projeto.
-2. Crie uma branch para a sua feature (`git checkout -b feature/nova-feature`).
-3. Faça commit das suas mudanças (`git commit -am 'Adiciona nova feature'`).
-4. Faça push para a branch (`git push origin feature/nova-feature`).
-5. Abra um Pull Request.
-
-## Licença
-
-Este projeto é licenciado sob a [MIT License](LICENSE).
-
-## Contato
-
-Se precisar de ajuda ou tiver alguma dúvida, entre em contato pelo email: seuemail@example.com
