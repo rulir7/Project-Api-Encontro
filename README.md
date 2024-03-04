@@ -2,13 +2,10 @@
 
 O Sistema de Agendamento de Eventos é uma aplicação web que permite aos usuários agendar eventos selecionando uma data e hora específicas. A aplicação oferece uma interface intuitiva e interativa para facilitar o processo de agendamento de eventos, seja para reuniões de negócios, compromissos pessoais ou qualquer outra ocasião.
 
-![Demonstração do Sistema de Agendamento de Eventos](demo.gif)
-
 ## Funcionalidades
 
 - **Seleção de Data e Hora:** Os usuários podem selecionar facilmente a data e a hora desejadas usando um calendário interativo e um modal de seleção de datas e horas.
 - **Envio de Dados:** Após selecionar os detalhes do evento, os usuários podem enviar os dados do evento para o servidor com um simples clique em um botão.
-- **Feedback Visual:** A aplicação fornece feedback visual para indicar se os dados do evento foram enviados com sucesso ou se ocorreu algum erro durante o processo de envio.
 
 ## Pré-requisitos
 
