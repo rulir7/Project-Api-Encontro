@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 const bodyParser = require('body-parser');
+const fs = require('fs');
 
 const PORT = 4000;
 
@@ -29,6 +30,18 @@ app.post('/postRequest', (req, res) => {
 
     // Envie uma resposta indicando que os dados foram recebidos com sucesso
     res.send("Data received successfully");
+});
+
+// Rota para manipular solicitações POST
+app.post('/saveData', (req, res) => {
+    const jsonData = JSON.stringify(req.body);
+    fs.writeFile('resposta.json', jsonData, function (err) {
+        if (err) {
+            res.status(500).json({ error: 'Erro ao salvar os dados' });
+        } else {
+            res.json({ message: 'Dados salvos com sucesso' });
+        }
+    });
 });
 
 // Inicia o servidor na porta especificada

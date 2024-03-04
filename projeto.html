@@ -78,6 +78,9 @@
 
             // Chamar a função para enviar os dados para o servidor
             sendDataToServer(dataToSave);
+
+            // Chamar a função para enviar os dados para o arquivo Json
+            sendDataToJson(dataToSave);
         }
 
         // Função para enviar os dados para o servidor
@@ -94,6 +97,16 @@
                     var statusMessage = document.getElementById("statusMessage");
                     statusMessage.style.display = "block";
                     statusMessage.textContent = "Erro ao enviar os dados: " + error.message;
+                });
+        }
+        // Função para enviar os dados para o arquivo Json
+        function sendDataToJson(data) {
+            axios.post('http://localhost:4000/saveData', data)
+                .then(response => {
+                    console.log('Dados enviados com sucesso para resposta.json no servidor');
+                })
+                .catch(error => {
+                    console.error('Erro ao enviar os dados para o servidor:', error);
                 });
         }
 
